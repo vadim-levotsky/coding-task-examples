@@ -1,4 +1,4 @@
-package fizzbuzz;
+package org.example.fizzbuzz;
 
 public class Result {
 
