@@ -15,7 +15,7 @@ Constrains: 0 < n < 2*10^5
 
 ### 2. Invert String
 ```
-Invert provided string.
+Invert the provided string.
 
 input: "Hello world!"
 output: "!dlrow olleH"
