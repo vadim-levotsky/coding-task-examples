@@ -11,7 +11,7 @@ public class HsbcCodingTask {
     public static void main(String[] args) {
         int[] input = {4, 2, 17, 1, 13, 22, 11, 15};
         System.out.println(solution(input, 15));
-        System.out.println(Arrays.toString(solution2(input, 15)));
+        System.out.println(Arrays.toString(solution2(input, 28)));
     }
 
     private static Map<Integer, Integer> solution(int[] input, int target) {

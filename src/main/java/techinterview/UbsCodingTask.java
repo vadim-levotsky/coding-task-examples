@@ -14,7 +14,9 @@ public class UbsCodingTask {
         // Print duplicated numbers from a list, e.g. int number[] = {1, 2, 3, 3, 4, 5, 5, 6};
         int[] number = {1, 2, 3, 3, 4, 5, 5, 6};
 
-        Map<Integer, Long> collected = Arrays.stream(number).boxed().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+        Map<Integer, Long> collected = Arrays.stream(number)
+                .boxed()
+                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
         collected.forEach((key, value) -> {
             if (value > 1) {

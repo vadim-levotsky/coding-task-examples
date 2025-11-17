@@ -45,10 +45,7 @@ public class CyclicRotation {
 
     public static int[] solution(int[] inputArrray, int rotations) {
         int length = inputArrray.length;
-        if (rotations == 0 || rotations == length) {
-            return inputArrray;
-        }
-        if (inputArrray.length == 1) {
+        if (rotations == 0 || rotations == length || length == 1) {
             return inputArrray;
         }
         int[] outputArray = new int[length];
